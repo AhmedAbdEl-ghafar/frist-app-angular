@@ -6,8 +6,13 @@ import { Component } from '@angular/core';
 })
 export class CounterComponent {
   public currentCount = 0;
+  public myname ="Ahmed Abd El-Ghafar"
 
   public incrementCounter() {
     this.currentCount++;
+  }
+
+  public myName() {
+    this.myname;
   }
 }
